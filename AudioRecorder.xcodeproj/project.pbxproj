@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D999C3641F85550200C2E9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999C3631F85550200C2E9E4 /* AppDelegate.swift */; };
-		D999C3661F85550200C2E9E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999C3651F85550200C2E9E4 /* ViewController.swift */; };
+		D999C3661F85550200C2E9E4 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999C3651F85550200C2E9E4 /* RecordSoundsViewController.swift */; };
 		D999C3691F85550200C2E9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D999C3671F85550200C2E9E4 /* Main.storyboard */; };
 		D999C36C1F85550200C2E9E4 /* AudioRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D999C36A1F85550200C2E9E4 /* AudioRecorder.xcdatamodeld */; };
 		D999C36E1F85550200C2E9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D999C36D1F85550200C2E9E4 /* Assets.xcassets */; };
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		D999C3601F85550200C2E9E4 /* AudioRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D999C3631F85550200C2E9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D999C3651F85550200C2E9E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D999C3651F85550200C2E9E4 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		D999C3681F85550200C2E9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D999C36B1F85550200C2E9E4 /* AudioRecorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioRecorder.xcdatamodel; sourceTree = "<group>"; };
 		D999C36D1F85550200C2E9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D999C3631F85550200C2E9E4 /* AppDelegate.swift */,
-				D999C3651F85550200C2E9E4 /* ViewController.swift */,
+				D999C3651F85550200C2E9E4 /* RecordSoundsViewController.swift */,
 				D999C3671F85550200C2E9E4 /* Main.storyboard */,
 				D999C36D1F85550200C2E9E4 /* Assets.xcassets */,
 				D999C36F1F85550200C2E9E4 /* LaunchScreen.storyboard */,
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D999C3661F85550200C2E9E4 /* ViewController.swift in Sources */,
+				D999C3661F85550200C2E9E4 /* RecordSoundsViewController.swift in Sources */,
 				D999C3641F85550200C2E9E4 /* AppDelegate.swift in Sources */,
 				D999C36C1F85550200C2E9E4 /* AudioRecorder.xcdatamodeld in Sources */,
 			);
