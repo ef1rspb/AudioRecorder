@@ -17,15 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1z-37-UCY" userLabel="Record Button">
-                                <rect key="frame" x="85" y="193" width="150" height="106"/>
-                                <state key="normal" title="Record" image="Record"/>
-                                <connections>
-                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mkx-xt-PAZ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmc-KC-btf">
-                                <rect key="frame" x="102" y="307" width="117" height="33"/>
+                                <rect key="frame" x="102" y="307" width="116" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="NJy-tz-na9"/>
                                 </constraints>
@@ -34,13 +27,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDv-WD-2cp" userLabel="Stop Recording Button">
-                                <rect key="frame" x="125" y="348" width="70" height="70"/>
+                                <rect key="frame" x="125" y="348" width="69" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="UHG-21-FBb"/>
                                 </constraints>
                                 <state key="normal" title="Stop recording" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rbJ-qT-8a8"/>
+                                    <segue destination="CG1-uo-hHr" kind="show" id="TTm-K4-S1k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1z-37-UCY" userLabel="Record Button">
+                                <rect key="frame" x="85" y="149" width="150" height="150"/>
+                                <state key="normal" title="Record" image="Record"/>
+                                <connections>
+                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mkx-xt-PAZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,6 +70,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="998" y="133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rup-MB-lvY">
+            <objects>
+                <viewController id="CG1-uo-hHr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y1d-at-HIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="2Bp-uC-N4d"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eG1-hy-tKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OG4-8L-lSC">
