@@ -56,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="997.5" y="132.04225352112675"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="rup-MB-lvY">
             <objects>
-                <viewController id="CG1-uo-hHr" sceneMemberID="viewController">
+                <viewController id="CG1-uo-hHr" customClass="PlaySoundsViewController" customModule="AudioRecorder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1d-at-HIZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
